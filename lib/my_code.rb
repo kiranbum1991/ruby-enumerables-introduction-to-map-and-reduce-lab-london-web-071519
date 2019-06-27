@@ -31,3 +31,7 @@ def map_to_square (source_array)
   end
   new
 end
+
+def reduce_to_total (source_array)
+  
+end
