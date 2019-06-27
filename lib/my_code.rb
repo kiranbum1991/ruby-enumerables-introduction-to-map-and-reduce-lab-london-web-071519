@@ -28,5 +28,10 @@ def reduce_to_all_true(source_array)
 end
 
 def reduce_to_any_true(source_array)
-  source_array.reduce(0) {|num| num = true}
+  i = 0
+  while i < source_array.length do
+    return false if source_array[i]
+    i+=1
+  end
+  return false
 end
