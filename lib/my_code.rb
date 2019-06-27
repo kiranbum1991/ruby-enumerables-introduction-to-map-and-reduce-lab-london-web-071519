@@ -24,5 +24,4 @@ end
 
 def reduce_to_any_true(source_array)
   source_array.reduce(0) {|num| num = true}
-  while
 end
