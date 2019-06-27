@@ -35,7 +35,7 @@ end
 def reduce_to_total (source_array, starting_point=0)
   i = 0
   starting point + source_array.sum do
-    while i < source_array.length do
+    while i < source_array.each do
     sum += i
   end
 end
