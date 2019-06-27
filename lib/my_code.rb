@@ -32,9 +32,11 @@ def map_to_square (source_array)
   new
 end
 
-def reduce_to_total (source_array, starting_point)
-  starting_point = 0
-  source_array.sum do
+def reduce_to_total (source_array, starting_point=0)
+  i = 0
+  starting point + source_array.sum do
+    while i < source_array.length do
+    sum += i
 end
 
 def reduce_to_all_true(source_array)
